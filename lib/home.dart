@@ -7,9 +7,15 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
-        title: const Text('islami'),
+        backgroundColor: Colors.transparent,
+        title: const Text('إسلامي',style: TextStyle(
+          fontWeight: FontWeight.w700,fontSize: 30,fontFamily: 'el-messiri'
+        ),),
+        centerTitle: true,
       ),
+
     );
   }
 }
